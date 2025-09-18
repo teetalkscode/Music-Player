@@ -51,8 +51,8 @@ body::selection {
     .music-track-changing-box {
         position: relative;
         margin-top: 50px auto 0;
-        justify-content: centre;
-        align-items: centre;
+        justify-content: center;
+        align-items: center;
     }
 }
 #song-img {
@@ -368,6 +368,7 @@ body::selection {
     text-align: center;
     margin-top: auto;
 }
+
 
 
 
