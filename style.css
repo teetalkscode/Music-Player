@@ -49,8 +49,8 @@ body::selection {
 }
 @media  (max-width: 859px) {
     .music-track-changing-box {
-        margin-top: 50px;
-        margin-right: 0;
+        position: relative;
+        margin-top: 50px auto 0;
         justify-content: centre;
         align-items: centre;
     }
@@ -368,5 +368,6 @@ body::selection {
     text-align: center;
     margin-top: auto;
 }
+
 
 
