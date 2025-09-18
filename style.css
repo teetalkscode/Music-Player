@@ -19,8 +19,9 @@ body::selection {
 /*MUSIC Wrapper*/
 .music-box {
     margin: 30px;
-    height: 90vh;
-    width: 30vw;
+    height: auto;
+    max-width: 400px;
+    width: 90%;
     background-color: #20364e;
     display: flex;
     flex-direction: column;
@@ -38,7 +39,7 @@ body::selection {
 }
 @media (max-width: 767.98px) {
     .music-box {
-        width: 65vw;
+        width: 90%;
     } 
 }
 
