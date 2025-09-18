@@ -266,7 +266,7 @@ body::selection {
     position: absolute;
     left: 1px;
     width: 3vw;
-    margin-left: 20px;
+    margin-left: 20px; margin-top: 25px;
     color: #e0e1dd;
     cursor: default;
 }
@@ -276,7 +276,7 @@ body::selection {
     position: absolute;
     right: 1px;
     width: 3vw;
-    margin-right: 20px;
+    margin-right: 20px; margin-top: 25px;
     color: #e0e1dd;
     cursor: default;
 }
@@ -293,7 +293,7 @@ body::selection {
     position: absolute;
     width: 90%;
     top: 1px;
-    margin-top: 25px;
+    margin-top: 35px;
     appearance: none;
     background: #e0e1dd;
 }
