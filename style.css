@@ -47,6 +47,11 @@ body::selection {
     gap: 10px;
     margin-right: 40px;
 }
+@media  (max-width: 859px) {
+    .music-track-changing-box {
+        margin-top: 60px;
+    }
+}
 #song-img {
     height: 280px;
     width: 280px;
@@ -360,3 +365,4 @@ body::selection {
     text-align: center;
     margin-top: auto;
 }
+
