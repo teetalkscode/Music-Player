@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <!--Music Wrapper-->
+    <div class="music-box">
+        <div id="menu-btn">
+            <i class="fa-solid fa-bars" id="menu-Btn" type="button"></i>
+            </div>
+
+            <div class="music-track-changing-box">
+                <img id="song-img" src="">
+                <div id="song-name">Play The Track</div>
+            </div>
+
+            <audio id="audio-player"></audio>
+
+        <!--Music Functional Area-->
+        <div id="funtion-box">
+            <div class="current-time">00:00</div>
+            <div class="duration">00:00</div>
+            <div id="function-box-player">
+                <input type="range" id="progress" value="0">
+                <i class="fa-solid fa-backward func-button" title="Previous" id="backwards"></i>
+                <i class="fa-solid fa-play func-button" id="play-pause"></i>
+                <i class="fa-solid fa-forward func-button" title="Next" id="next"></i>
+            </div>
+
+            
+            <!--Footer-->
+            <p id="copyright"> &copy; 2025 Tiyasha Ghosh. All rights reserved.</p>
+        </div>
+
+        <!--The Menu Section-->
+        <div class="menu-box">
+            <i class="fa-solid fa-xmark close-btn" type="button"></i>
+            <div id="menu-upper-sec">
+            <div id="menu-image"><img src="Menu Cover.png"></div>
+            <div class="menu-text-box">
+            <h2 id="menu-heading">The Playlist Contains</h2>
+            <p id="menu-bio">Total of 4 Songs</p>
+            </div>
+            </div>
+
+        <div class="menu-lower-sec">
+            <div class="music" id="music1"><p id="music-txt">Saiyaara x Saiyaara</p> <i class="fa-regular fa-heart favlist"></i></div>
+            <div class="music" id="music2"><p id="music-txt">Humdum Unplugged</p> <i class="fa-regular fa-heart favlist"></i></div>
+            <div class="music" id="music3"><p id="music-txt">Ek Tarfa x Paaro</p> <i class="fa-regular fa-heart favlist"></i></div>
+            <div class="music" id="music4"><p id="music-txt">Kya Tumhe Unplugged</p> <i class="fa-regular fa-heart favlist"></i></div>
+        </div>
+        </div>
+
+    </div>
+    <script src="function.js"></script>
+</body>
+</html>
