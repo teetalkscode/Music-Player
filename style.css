@@ -34,7 +34,7 @@ body::selection {
 
 @media  (max-width: 859px) {
     .music-box {
-    height: 90vh;
+    height: 70vh;
     width: 90%;
     max-width: 400px;
     }
