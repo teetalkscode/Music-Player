@@ -146,7 +146,7 @@ const musicLists = [
 
         {
     img : 'Kya Tumhe.png',
-    name : 'Kya Tumhe',
+    name : 'Kya Tumhe Unplugged',
     music : 'Kya Tumhe.mp3'
     }
 ]
@@ -187,4 +187,5 @@ prevBtn.addEventListener ('click', prevSong);
 
 audio.addEventListener ('ended', () => {
     nextSong();
+
 })
