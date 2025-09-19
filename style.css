@@ -283,7 +283,7 @@ body::selection {
         align-items: center;
     }
 .close-btn:hover {
-    opacity: 0.8;
+    color: #778da9;
     transition: 0.2s ease;
 }
 }
@@ -416,4 +416,5 @@ body::selection {
     text-align: center;
     margin-top: auto;
 }
+
 
