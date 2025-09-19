@@ -34,7 +34,7 @@ body::selection {
 
 @media  (max-width: 859px) {
     .music-box {
-    height: 70vh;
+    height: 80vh;
     width: 90%;
     max-width: 400px;
     }
@@ -58,7 +58,7 @@ body::selection {
         justify-content: center;
         align-items: center;
     }
-}
+}
 #song-img {
     height: 280px;
     width: 280px;
@@ -298,6 +298,16 @@ body::selection {
     margin-left: auto;
     margin-right: 40px;
 }
+@media  (max-width: 859px) {
+    #function-box {
+        position: relative;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
 #function-box-player {
     height: 100%;
@@ -333,7 +343,7 @@ body::selection {
 }
 
 #progress {
-    height: 1vh;
+    height: 3px;
     border-radius: 10px;
     cursor: pointer;
     position: absolute;
@@ -354,6 +364,7 @@ body::selection {
 
 
 .func-button {
+    margin-top: 20px;
     padding: 5px;
     color: #e0e1dd;
     font-size: 35px;
@@ -382,4 +393,4 @@ body::selection {
     text-align: center;
     margin-top: auto;
 }
-
+
