@@ -8,6 +8,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #ebebeb;
     overflow: hidden;
 }
@@ -72,6 +73,16 @@ body::selection {
     font-family: "Sofia", sans-serif;
     font-size: 25px;
     color: #e0e1dd;
+}
+@media  (max-width: 859px) {
+    #song-img  {
+        height: 180px;
+        width: 180px
+    }
+    #song-name {
+        width: 180px;
+        font-size: 19px;
+    }
 }
 
 /*MENU Box Content*/
@@ -368,7 +379,4 @@ body::selection {
     text-align: center;
     margin-top: auto;
 }
-
-
-
-
+
