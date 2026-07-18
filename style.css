@@ -1,7 +1,10 @@
 * {
     -webkit-tap-highlight-color: transparent;
+    outline: 1px solid red;
 }
 body {
+    width:100vw;
+    height:100vh;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -19,9 +22,8 @@ body::selection {
 
 /*MUSIC Wrapper*/
 .music-box {
-    margin: 30px;
-    height: 550px;
-    width: 80%;
+    width:100vw;
+    height:100vh;
     background-color: #20364e;
     display: flex;
     flex-direction: column;
@@ -34,9 +36,11 @@ body::selection {
 
 @media  (max-width: 859px) {
     .music-box {
-    height: 80vh;
-    width: 100%;
-    max-width: 400px;
+    width:100%;
+    height:100vh;
+    max-width:none;
+    margin:0;
+    border-radius:0;
     overflow: hidden;
     }
 }
@@ -416,5 +420,4 @@ body::selection {
     text-align: center;
     margin-top: auto;
 }
-
 
